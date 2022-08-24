@@ -13,8 +13,9 @@ public class Practice1 extends BaseClass{
 	@Test(groups="smokeTest")
 	public void createTaskTest()
 	{
-		//Assert.fail();
+		
 		System.out.println("Task assigned");
+		//assert.fail();
 		/*SoftAssert sa=new SoftAssert();
 		sa.fail();
 		System.out.println("Soft assert Task assigned");
